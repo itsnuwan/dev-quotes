@@ -1,0 +1,30 @@
+{
+  "name": "Message",
+  "base": "Model",
+  "properties": {},
+  "methods": {
+    "quote": {
+      "isStatic": true,
+      "accepts": [{
+        "arg": "msg",
+        "type": "string",
+        "http": {
+          "source": "query"
+        }
+      }],
+      "returns": [
+        {
+          "arg": "msg",
+          "type": "string"
+        },
+        {
+          "arg": "author",
+          "type": "string"
+        }
+      ],
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
+}
