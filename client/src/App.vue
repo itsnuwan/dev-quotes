@@ -16,7 +16,7 @@
             </v-layout>
           </v-slide-y-transition>
           <div class="social-sharing">
-            <social-sharing url="http://devx.fun"
+            <social-sharing url="https://devx.fun"
               :title="quote.quote+' - '+quote.author"
               hashtags="devx.fun"
               inline-template>
