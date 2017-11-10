@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vue": "^2.4.4",
+    "vue-social-sharing": "^2.2.10",
     "vuetify": "^0.16.9"
   },
   "devDependencies": {

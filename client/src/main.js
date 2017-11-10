@@ -5,6 +5,9 @@ import './stylus/main.styl'
 
 Vue.use(Vuetify)
 
+var SocialSharing = require('vue-social-sharing');
+Vue.use(SocialSharing);
+
 new Vue({
   el: '#app',
   render: h => h(App)

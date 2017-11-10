@@ -15,6 +15,21 @@
               </blockquote>
             </v-layout>
           </v-slide-y-transition>
+          <div class="social-sharing">
+            <social-sharing url="http://devx.fun"
+              :title="quote.quote+' - '+quote.author"
+              hashtags="devx.fun"
+              inline-template>
+                <div>
+                  <network network="facebook">
+                    <i class="fa fa-fw fa-facebook"></i> Facebook
+                  </network>
+                  <network network="twitter">
+                    <i class="fa fa-fw fa-twitter"></i>| Twitter
+                  </network>
+                </div>
+              </social-sharing>
+          </div>
         </v-container>
       </v-content>
     </main>
@@ -86,5 +101,10 @@ let n = 0;
 }
 .fluid{
   margin-top: 10%;
+}
+.social-sharing{
+  float: right;
+  margin-right: 10%;
+  cursor: pointer;
 }
 </style>
