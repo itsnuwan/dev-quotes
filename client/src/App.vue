@@ -18,6 +18,8 @@
           <div class="social-sharing">
             <social-sharing url="https://devx.fun"
               :title="quote.quote+' - '+quote.author"
+              :quote="quote.quote+' - '+quote.author"
+              :description="quote.quote+' - '+quote.author"
               hashtags="devx.fun"
               inline-template>
                 <div>
