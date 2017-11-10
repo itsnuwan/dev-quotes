@@ -71,7 +71,7 @@ let n = 0;
     },
     mounted(){
       this.loadQuotes();
-      this.quoteInterval = setInterval(this.renderQuote,10000);
+      this.quoteInterval = setInterval(this.renderQuote,15000);
     },
     methods: {
       loadQuotes(){
