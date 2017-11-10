@@ -46,5 +46,17 @@ module.exports = [
     {
       quote:"Without requirements or design, programming is the art of adding bugs to an empty text file.",
       author: 'Louis Srygley'
+    },
+    {
+      quote:"A good programmer is someone who always looks both ways before crossing a one-way street.",
+      author: "Doug Linder"
+    },
+    {
+      quote: "Programming is like sex. One mistake and you have to support it for the rest of your life.",
+      author: "Michael Sinz"
+    },
+    {
+      quote: "Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. ",
+      author: "Mosher’s Law of Software Engineering"
     }
   ];
