@@ -58,5 +58,9 @@ module.exports = [
     {
       quote: "Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. ",
       author: "Mosher’s Law of Software Engineering"
+    },
+    {
+      quote: "The test of a first-rate intelligence is the ability to hold two opposed ideas in mind at the same time and still retain the ability to function.",
+      author:"F. Scott Fitzgerald"
     }
-  ];
+];
